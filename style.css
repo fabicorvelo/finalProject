@@ -1,0 +1,39 @@
+body
+  {
+    color: white;
+    background: rgb(5, 6, 20);
+  }
+  .heading
+  {
+    width: 80%;
+    font-size: 22px;
+  }
+  #camera 
+  {
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px; 
+  }
+  .name_of_objects, #result_object_name  , #result_object_accuracy
+  {
+    color: yellow;
+  }
+  .botao {
+    background-color: #5b9e5d; /* Cor de fundo verde */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Borda arredondada */
+    transition-duration: 0.4s; /* Duração da transição ao passar o mouse */
+}
+/* Estilo de hover (quando o mouse passa sobre o botão) */
+.botao:hover {
+  background-color: #357eeb; /* Cor de fundo mais escura */
+}
